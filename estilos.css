@@ -1,0 +1,91 @@
+body header{
+    background: #ffffff;                     /*Color de fondo portada*/
+    border-bottom: 3px solid rgb(0, 0, 0);   /*Borde de abajo*/  
+}
+
+body header img{
+    width: 4%;                                /*Ancho foto portada*/
+}
+
+h4{
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: sans-serif;
+    text-align: left;
+    background-color: white;
+}
+
+
+h2{
+    margin-top: 0.5%;
+    margin-left: 0.2%;
+    margin-bottom: 1%;
+}
+
+p{
+    margin: 0.2%;
+}
+
+div{
+    background-color: lightgray;
+    margin: 3%;
+}
+
+.grupo1{
+    display: inline;
+    width: 300px;
+}
+
+.grupo2{
+    display: inline;
+    margin-top: 0.2%;
+}
+
+#url{
+    width: 230px;
+    margin-right: 0px;
+}
+
+#examinar{
+    margin-left: 0px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #464545;
+    background-color: rgb(234, 239, 241);
+    display: inline;
+    padding: 2px 2px;
+    cursor: pointer;
+    width: 100%;
+    font-size: small;
+}
+
+.grupo3{
+    display: inline;
+}
+
+#lugar{
+    width: 140px;
+}
+
+textarea{
+    width: 380px;
+    margin: 0.2%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+body footer p{
+    display: inline
+}
