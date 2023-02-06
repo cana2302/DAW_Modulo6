@@ -26,4 +26,5 @@ function borrar(){
     nombre1.value = "";
     fileText.value = "";
     textarea.value = "";
+    lugar.value = "";
 }
