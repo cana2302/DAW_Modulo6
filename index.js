@@ -18,13 +18,15 @@ boton_borrar.addEventListener('click', borrar);
 
 
 function enviar(){
+  if (nombre1.value !="" && fileText.value !="" && lugar.value != ""){
     textarea.value = "Archivo: " + fileText.value + "\nEnviado desde: " + lugar.value +" para " + nombre1.value + "." + "\n\nGracías por el envío.";
+  }
 }
 
 
 function borrar(){
-    nombre1.value = "";
-    fileText.value = "";
-    textarea.value = "";
-    lugar.value = "";
+  nombre1.value = "";
+  fileText.value = "";
+  textarea.value = "";
+  lugar.value = "";
 }
